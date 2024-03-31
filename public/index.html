@@ -1,0 +1,399 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="index.css" href="style.css">
+    <title>Tienda en línea</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 10px;
+            text-align: center;
+            border-radius: 10px 10px 0 0; 
+        }
+        header img {
+            max-width: 150px;
+            margin-top: 10px;
+            border-radius: 50%;
+        }
+        .container {
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 0 20px;
+            border-radius: 0 0 10px 10px; 
+            background-color: #f5f5f5; 
+            padding-bottom: 20px; /
+        }
+        .product {
+            border: 1px solid #ccc;
+            margin-bottom: 20px;
+            padding: 10px;
+            overflow: hidden;
+            border-radius: 10px;
+            background-color: #fff;
+            transition: transform 0.3s ease-in-out; /* Transición suave al hacer zoom */
+        }
+        .product {
+            border: 1px solid #ccc;
+            margin-bottom: 20px;
+            padding: 10px;
+            overflow: hidden;
+            border-radius: 10px; /* Redondea todos los bordes */
+            background-color: #fff; /* Agrega un color de fondo */
+        }
+        .product img {
+            width: 100px;
+            float: left;
+            margin-right: 10px;
+        }
+        .product-info {
+            overflow: hidden;
+        }
+        .product-title {
+            font-weight: bold;
+            margin-top: 0;
+        }
+        .product-price {
+            color: #007bff;
+        }
+    /* Estilos para el enlace de WhatsApp */
+    .whatsapp-link {
+            position: fixed;
+            bottom: 20px;
+            right: 20px;
+            color: #fff;
+            padding: 15px;
+            border-radius: 50%;
+            text-decoration: none;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .whatsapp-link img {
+            width: 50px;
+            height: 50px;
+            margin-right: 10px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <img src="/img-logo/Logo Tienda de Ropa Flores Aesthetic Rosa.png" alt="Logo de la tienda">
+        <h1>Tienda en línea</h1>
+    </header>
+    <div class="container">
+        <div class="product">
+            <img src="/producto/DESODORANTE REXONN EN AEROSOL.webp" alt="Producto 1">
+            <div class="product-info">
+                <h2 class="product-title">Desodorante En Aerosol</h2>
+                <p class="product-price">$170</p>
+                <p></p>
+            </div>
+        </div>
+
+        <div class="product">
+            <img src="/producto/-REXONA-DESODORANTE-CREMA.png" alt="Producto 2">
+            <div class="product-info">
+                <h2 class="product-title">Desodorante En Crema</h2>
+                <p class="product-price">$120.00</p>
+                <p>Desodorante en crema | MotionSense Odorono</p>
+            </div>
+        </div>
+
+        <div class="product">
+            <img src="/public/producto/Hinds-antitranspirante.webp" alt="Producto 3">
+            <div class="product-info">
+                <h2 class="product-title">Hinds</h2>
+                <p class="product-price">$90</p>
+                <p>Antitranspirante sin Alcohol</p>
+            </div>
+        </div>
+
+        <div class="product">
+            <img src="/producto/pngwing.com (13).png" alt="Producto 3">
+            <div class="product-info">
+                <h2 class="product-title">Crema Dave</h2>
+                <p class="product-price">$290</p>
+                <p>Mascara 1 Minuto concentrado nutritivo.</p>
+            </div>
+        </div>
+
+        <div class="product">
+            <img src="/producto/pngwing.com (13).png" alt="Producto 3">
+            <div class="product-info">
+                <h2 class="product-title">Crema Dave</h2>
+                <p class="product-price">$200</p>
+                <p>Mascara 1 Minuto concentrado nutritivo.Con Hiervas Naturales</p>
+            </div>
+        </div>
+
+        <div class="product">
+            <img src="/public/producto/Mascarilla-Elvive.webp" alt="Producto 3">
+            <div class="product-info">
+                <h2 class="product-title">Crema Elvive </h2>
+                <p class="product-price">$290</p>
+                <p>Mascarilla Protectora de color</p>
+            </div>
+        </div>
+
+        <div class="product">
+            <img src="/public/producto/Crema Dihellen.jpg" alt="Producto 3">
+            <div class="product-info">
+                <h2 class="product-title">Crema Dihellen</h2>
+                <p class="product-price">$250</p>
+                <p>Crema Hidratante </p>
+            </div>
+        </div>
+
+        <div class="product">
+            <img src="/public/producto/Jabon-Aspexia.webp" alt="Producto 3">
+            <div class="product-info">
+                <h2 class="product-title">Asepxia</h2>
+                <p class="product-price">$149</p>
+                <p>Para Piel Mixta con Poros Abiertos  </p>
+            </div>
+        </div>
+
+        <div class="product">
+            <img src="/public/producto/Crema Corporal.jpeg" alt="Producto 3">
+            <div class="product-info">
+                <h2 class="product-title">crema wav</h2>
+                <p class="product-price">$60</p>
+                <p>Crema Para manos y cuerpo </p>
+            </div>
+        </div>
+
+        <div class="product">
+            <img src="/public/producto/Curitas-azul.jpeg" alt="Producto 3">
+            <img src="/public/producto/Curias-rosa.webp" alt="Producto 3">
+            <div class="product-info">
+                <h2 class="product-title">Curitas</h2>
+                <p class="product-price">$80</p>
+                <p>Curitas</p>
+            </div>
+        </div>
+
+        <div class="product">
+            <img src="/producto/collar-corazon.jpg" alt="Producto 3">
+            <div class="product-info">
+                <h2 class="product-title">collar-corazon</h2>
+                <p class="product-price">$186</p>
+                <p>Collar forma corazon de acero quirurjico</p>
+            </div>
+        </div>
+
+        <div class="product">
+            <img src="/producto/collar-delfin.jpg" alt="Producto 3">
+            <div class="product-info">
+                <h2 class="product-title">Collar-Delfin</h2>
+                <p class="product-price">$186</p>
+                <p>Collar forma corazon de acero quirurjico</p>
+            </div>
+        </div>
+
+        <div class="product">
+            <img src="/producto/caravana-clave-sol.jpg" alt="Producto 3">
+            <div class="product-info">
+                <h2 class="product-title">Caravana</h2>
+                <p class="product-price">$60</p>
+                <p>Caravana Clave de Sol</p>
+            </div>
+        </div>
+
+        <div class="product">
+            <img src="/producto/caravana-cruz.jpg" alt="Producto 3">
+            <div class="product-info">
+                <h2 class="product-title">caravana</h2>
+                <p class="product-price">$60</p>
+                <p>caravana Forma de Trebol de 4 hojas</p>
+            </div>
+        </div>
+
+        <div class="product">
+            <img src="/producto/caravana-hoja.jpg" alt="Producto 3">
+            <div class="product-info">
+                <h2 class="product-title">caravana</h2>
+                <p class="product-price">$60</p>
+                <p>caravana Forma de hoja</p>
+            </div>
+        </div>
+
+        <div class="product">
+            <img src="/producto/pulcera-cruz.jpg" alt="Producto 3">
+            <div class="product-info">
+                <h2 class="product-title">Pulcera</h2>
+                <p class="product-price">$160</p>
+                <p>Pulcera Acro cruz de Equilibrio</p>
+            </div>
+        </div>
+
+        <div class="product">
+            <img src="/producto/pulsera-infinito.jpg" alt="Producto 3">
+            <div class="product-info">
+                <h2 class="product-title">Pulcera</h2>
+                <p class="product-price">$140</p>
+                <p>Pulcera Acro Simbolo de Infinito</p>
+            </div>
+        </div>
+
+        <div class="product">
+            <img src="/producto/anillio-01.jpg" alt="Producto 3">
+            <img src="/producto/anillio-01-01.jpg" alt="Producto 3">
+            <div class="product-info">
+                <h2 class="product-title">Anillo</h2>
+                <p class="product-price">$80</p>
+                <p>Anillo De Acero Quirurjico</p>
+            </div>
+        </div>
+
+        <div class="product">
+            <img src="/producto/anillio-02.jpg" alt="Producto 3">
+            <img src="/producto/anillio-02-02.jpg" alt="Producto 3">
+            <div class="product-info">
+                <h2 class="product-title">Anillo</h2>
+                <p class="product-price">$80</p>
+                <p>Anillo De Acero Quirurjico</p>
+            </div>
+        </div>
+
+        <div class="product">
+            <img src="/producto/anillio-03.jpg" alt="Producto 3">
+            <img src="/producto/anillio-03-03.jpg" alt="Producto 3">
+            <div class="product-info">
+                <h2 class="product-title">Anillo</h2>
+                <p class="product-price">$80</p>
+                <p>Anillo De Acero Quirurjico</p>
+            </div>
+        </div>
+
+        <div class="product">
+            <img src="/producto/anillio-04.jpg" alt="Producto 3">
+            <img src="/producto/anillio-04-04.jpg" alt="Producto 3">
+            <div class="product-info">
+                <h2 class="product-title">Anillo</h2>
+                <p class="product-price">$80</p>
+                <p>Anillo De Acero Quirurjico</p>
+            </div>
+        </div>
+
+        <div class="product">
+            <img src="/public/produtos-ropa/Pijama-pantalon.jpg" alt="Producto 3">
+            <div class="product-info">
+                <h2 class="product-title">Pijama-Pantalon</h2>
+                <p class="product-price">$270</p>
+                <p>Pijama-Pantalon Rosa con detalles de "Gatitos" </p>
+            </div>
+        </div>
+
+        <div class="product">
+            <img src="/public/produtos-ropa/crock.jpg" alt="Producto 3">
+            <div class="product-info">
+                <h2 class="product-title">Chanclas</h2>
+                <p class="product-price">$250</p>
+                <p>Chanclas De Goma Eva  </p>
+            </div>
+        </div>
+
+        <div class="product">
+            <img src="/public/produtos-ropa/boxer largo.jpg" alt="Producto 3">
+            <div class="product-info">
+                <h2 class="product-title">Boxer liso</h2>
+                <p class="product-price">$180</p>
+                <p>Boxer color negro </p>
+            </div>
+        </div>
+
+        <div class="product">
+            <img src="/public/produtos-ropa/boxer.jpg" alt="Producto 3">
+            <div class="product-info">
+                <h2 class="product-title">Boxer</h2>
+                <p class="product-price">$250</p>
+                <p>Boxer Estampado</p>
+            </div>
+        </div>
+
+        <div class="product">
+            <img src="/public/produtos-ropa/corpiño T40-90.jpg" alt="Producto 3">
+            <div class="product-info">
+                <h2 class="product-title">Corpiño</h2>
+                <p class="product-price">$120</p>
+                <p>Corpiño De Ficro Fibra</p>
+            </div>
+        </div>
+
+        <div class="product">
+            <img src="/public/produtos-ropa/Medias largas.jpg" alt="Producto 3">
+            <img src="/public/produtos-ropa/Soquetes (N).jpg" alt="Producto 3">
+            <img src="/public/produtos-ropa/Soquetes.jpg" alt="Producto 3">
+            <div class="product-info">
+                <h2 class="product-title">Medias nylon</h2>
+                <h2 class="product-title">Medias Soquetes</h2>
+                <h2 class="product-title">Medias Largas</h2>
+                <p class="product-price">$50 Medias nylon</p>
+                <p class="product-price">$60 Soquetes</p>
+                <p class="product-price">$70 Medias Largas</p>
+            </div>
+        </div>
+
+        <div class="product">
+            <img src="/public/produtos-ropa/babydor-rojo.jpg" alt="Producto 3">
+            <div class="product-info">
+                <h2 class="product-title">baby de encaje</h2>
+                <p class="product-price">$250</p>
+                <p>Bady De Encaje Rojo </p>
+            </div>
+        </div>
+
+        <div class="product">
+            <img src="/public/produtos-ropa/babydor-rosa.jpg" alt="Producto 3">
+            <div class="product-info">
+                <h2 class="product-title">baby</h2>
+                <p class="product-price">$190</p>
+                <p>Bady mangas larga </p>
+            </div>
+        </div>
+
+        <div class="product">
+            <img src="/public/produtos-ropa/Imagen tanga1.jpg" alt="Producto 3">
+            <img src="/public/produtos-ropa/Imagen tanga 2.jpg" alt="Producto 3">
+            <div class="product-info">
+                <h2 class="product-title">Tangas</h2>
+                <p class="product-price">$100</p>
+                <p>Tangas Varios Modelos</p>
+            </div>
+        </div>
+
+        <div class="product">
+            <img src="/public/produtos-ropa/Imagen tanga 3.jpg" alt="Producto 3">
+            <img src="/public/produtos-ropa/Imagen tanga 4.jpg" alt="Producto 3">
+            <div class="product-info">
+                <h2 class="product-title">Tangas</h2>
+                <p class="product-price">$100</p>
+                <p>Tangas Varios Modelos</p>
+            </div>
+        </div>
+
+        <div class="product">
+            <img src="/public/produtos-ropa/Imagen tanga 5.jpg" alt="Producto 3">
+            <img src="/public/produtos-ropa/Imagen 6.jpg" alt="Producto 3">
+            <div class="product-info">
+                <h2 class="product-title">Tangas</h2>
+                <p class="product-price">$100</p>
+                <p>Tangas Varios Modelos</p>
+            </div>
+        </div>
+    </div>
+ 
+     <!-- Enlace de WhatsApp -->
+     <a href="https://wa.me/+59898571624" class="whatsapp-link" target="_blank">
+        <img src="/producto/wassap.png" alt="WhatsApp">
+     </a>
+</body>
+</html>
